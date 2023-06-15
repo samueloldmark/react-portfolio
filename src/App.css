@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 30vh;
+}
+
+.contactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  height: 4em;
+  width: 10em;
+  border-radius: 10px;
+  right: 18em;
+}
+
+.contactTitle {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  height: 20em;
+  width: 40em;
+  margin-bottom: 5em;
+  margin-top: 2em;
+}
+
+.contactFormBox {
+  display: flex;
+  gap: 15em;
+  align-items: start;
+  justify-content: center;
+  margin-top: 15em;
+}
+
+.contactMeTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  margin-top: 5em;
+  color: black;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.firstNameBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+}
+
+#firstName {
+  height: 3em;
+  width: 20em;
+  border-radius: 3px;
+  border: 1px solid #D0D0D0;
+  background-color: #FAFAFA;
+}
+
+.lastNameBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+}
+
+#lastName {
+  height: 3em;
+  width: 20em;
+  border-radius: 3px;
+  border: 1px solid #D0D0D0;
+  background-color: #FAFAFA;
+}
+
+.firstLastBox {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.emailBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  margin-bottom: 1em;
+}
+
+#email {
+  height: 3em;
+  width: 42.8em;
+  border-radius: 3px;
+  border: 1px solid #D0D0D0;
+  background-color: #FAFAFA;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  margin-bottom: 3em;
+}
+
+#message {
+  height: 3em;
+  width: 42.8em;
+  border-radius: 3px;
+  border: 1px solid #D0D0D0;
+  background-color: #FAFAFA;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 3em;
+  width: 7em;
+  border-radius: 10px;
+  right: 18em;
+}
+
+.resumeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 3.5em;
+  width: 8em;
+  border-radius: 10px;
+}
+
+.FooterBox {
+  display: flex;
+  position: absolute;
+  margin-top: 7em;
+  width: 100%;
+  height: 30vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: #242424;
+}
+
+.MyName {
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 2.5em;
+}
+
+.Email {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: white;
+  display: flex;
+  position: absolute;
+  margin-top: 7.5em;
+  margin-left: 100px;
+}
+
+.Number {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: white;
+  display: flex;
+  position: absolute;
+  margin-top: 9.5em;
+  margin-left: 100px;
+}
+
+.EmailIcon {
+  position: absolute;
+  top: 8vh;
+  height: 2em;
+  right: 6em;
+}
+
+.Facebook {
+  position: absolute;
+  top: 8vh;
+  height: 2em;
+  right: 10em;
+}
+
+.Instagram {
+  position: absolute;
+  top: 8vh;
+  height: 2em;
+  right: 14em;
+}
+
+.Twitter {
+  position: absolute;
+  top: 8vh;
+  height: 2em;
+  right: 18em;
+}
+
+.Linkedin {
+  position: absolute;
+  top: 8vh;
+  height: 2em;
+  right: 22em;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #242424;
+}
+
+a:hover {
+  color: blueviolet;
+  transition: 0.2s ease-in-out;
+}
+
+.picture {
+  position: absolute;
+  border-radius: 60%;
+  height: 6em;
+  right: 51%;
+  margin-top: -5vh;
+}
+
+.project-box {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin-top: 200px;
+  margin-bottom: 70vh;
+}
+
+.project-items {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  width: 90vw;
+  border-radius: 20px;
+  background-image: linear-gradient(#D49EFF, #FD9EFF);
+}
+
+.project-pic-box-1 {
+  display: flex;
+  width: 80vw;
+}
+
+.project-images {
+  display: flex;
+}
+
+.project-header-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+.project-header {
+  display: flex;
+  height: 20vh;
+}
+
+.project-pic1 {
+  height: 40em;
+}
+
+.logo {
+  height: 10em;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 8px;
+  font-size: 100px;
+  color: white;
+  margin: 0;
+  height: 10vh;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #B75BFF;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  color: white;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  color: black;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  font-weight: 200;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #616161;
+}
+
+.role_text {
+  margin-top: -2em;
+}
+
+.IntroBox {
+  margin-left: 6.4em;
+  height: 1em;
+  width: 100vw;
+  margin-top: 16em;
+  margin-bottom: 19em;
+}
+
+.AboutMeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+  margin-bottom: 5em;
+  gap: 6em;
+}
+
+.profilepic2 {
+  height: 30em;
+  width: 22em;
+  border-radius: 10px;
+}
+
+.Title {
+  height: 1em;
+  width: 100vw;
+  margin-top: 12em;
+}
+
+.concepts_title {
+  margin-left: 7em;
+}
+
+.aboutresume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 3em;
+}
+
+.ProjectCards {
+  display: flex;
+  margin-top: 3em;
+  margin-left: 7em;
+  margin-bottom: 15em;
+  height: 20em;
+  width: 100vw;
+  gap: 3em;
+}
+
+.LIINEPic {
+  height: 25em;
+  width: 18em;
+}
+
+.LIINEPic:hover {
+  scale: 1.02;
+  transition: ease-in-out 500ms;
+}
+
+.HooPic {
+  height: 25em;
+  width: 18em;
+}
+
+.HooPic:hover {
+  scale: 1.02;
+  transition: ease-in-out 500ms;
+}
+
+.VocPic {
+  height: 25em;
+  width: 18em;
+}
+
+.VocPic:hover {
+  scale: 1.02;
+  transition: ease-in-out 500ms;
+}
+
+.cases_title {
+  margin-left: 7em;
+}
+
+.CaseCards {
+  display: flex;
+  margin-top: 3em;
+  margin-left: 7em;
+  margin-bottom: 15em;
+  height: 20em;
+  width: 100vw;
+  gap: 3em;
+}
+
+.CookwisePic {
+  height: 25em;
+  width: 18em;
+}
+
+.CookwisePic:hover {
+  scale: 1.02;
+  transition: ease-in-out 500ms;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .project-pic-box-1 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .project-box {
+    height: 600px;
+  }
+
+  .project-items {
+    height: 1000px;
+  }
+
+  .project-info {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .project-header {
+    justify-content: center;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  .project-header-info {
+    margin-top: -50px;
+  }
+
+  .picture {
+    right: 10%;
+    display: none;
+  }
+
+}
+
+@media screen {}
